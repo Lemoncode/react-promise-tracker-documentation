@@ -67,7 +67,7 @@ class HomeSplash extends React.Component {
             <Button href={docUrl('getting-started.html')}>Getting Started</Button>
             <Button href={docUrl('doc1.html')}>Try it out</Button>
             <Button href={docUrl('examples.html')}>Examples</Button>
-            <Button href={docUrl('api')}>Examples</Button>
+            <Button href={docUrl('api')}>Api</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -97,8 +97,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>Simple</h2>
+        <MarkdownBlock>Few lines of code and good to go</MarkdownBlock>
       </div>
     );
 
@@ -146,16 +146,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/basefactor_logo.svg`,
+            content: 'Promise tracker custom hook + hoc implementation available',
+            image: `${baseUrl}img/hooks.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Hooks + Hoc flavours',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/basefactor_logo.svg`,
+            content: 'Library agnostic works with fetch, axios... any library that support promises',
+            image: `${baseUrl}img/universal.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Universal',
           },
         ]}
       </Block>
