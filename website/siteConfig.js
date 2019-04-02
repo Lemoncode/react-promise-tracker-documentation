@@ -14,8 +14,8 @@ const users = [
     caption: "User1",
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: "/img/docusaurus.svg",
-    infoLink: "https://www.facebook.com",
+    image: "/img/basefactor_logo.svg",
+    infoLink: "https://www.basefactor.com",
     pinned: true
   }
 ];
@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: "React Promise Tracker", // Title for your website.
   tagline: "Simple promise tracker",
-  url: "https://your-docusaurus-test-site.com", // Your website URL
+  url: "https://lemoncode.github.io/react-promise-tracker/", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -38,23 +38,23 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "doc1", label: "Docs" },
-    { doc: "doc4", label: "API" },
-    { page: "help", label: "Help" },
-    { blog: true, label: "Blog" }
+    { doc: "getting-started", label: "Getting Started" },
+    { doc: "try-it-out", label: "Try it out" },
+    { doc: "examples", label: "Examples" },
+    { page: "api", label: "api" },    
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/docusaurus.svg",
-  footerIcon: "img/docusaurus.svg",
+  headerIcon: "img/basefactor_logo.svg",
+  footerIcon: "img/basefactor_logo.svg",
   favicon: "img/favicon.png",
 
   /* Colors for website */
   colors: {
-    primaryColor: "#2E8555",
+    primaryColor: "#000000",
     secondaryColor: "#205C3B"
   },
 

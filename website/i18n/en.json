@@ -5,28 +5,24 @@
     "previous": "Previous",
     "tagline": "Simple promise tracker",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+      "api": {
+        "title": "api"
       },
-      "doc2": {
-        "title": "document number 2"
+      "examples": {
+        "title": "examples"
       },
-      "doc3": {
-        "title": "This is document number 3"
+      "getting-started": {
+        "title": "react-promise-tracker"
       },
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
+      "try-it-out": {
+        "title": "try-it-out"
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Getting Started": "Getting Started",
+      "Try it out": "Try it out",
+      "Examples": "Examples",
+      "api": "api"
     },
     "categories": {
       "Docusaurus": "Docusaurus",

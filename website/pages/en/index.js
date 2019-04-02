@@ -60,13 +60,14 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/docusaurus.svg`} />
+        <Logo img_src={`${baseUrl}img/basefactor_logo.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('getting-started.html')}>Getting Started</Button>
+            <Button href={docUrl('doc1.html')}>Try it out</Button>
+            <Button href={docUrl('examples.html')}>Examples</Button>
+            <Button href={docUrl('api')}>Examples</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -106,7 +107,7 @@ class Index extends React.Component {
         {[
           {
             content: 'Talk about trying this out',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/basefactor_logo.svg`,
             imageAlign: 'left',
             title: 'Try it Out',
           },
@@ -120,7 +121,7 @@ class Index extends React.Component {
           {
             content:
               'This is another description of how this project is useful',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/basefactor_logo.svg`,
             imageAlign: 'right',
             title: 'Description',
           },
@@ -133,7 +134,7 @@ class Index extends React.Component {
         {[
           {
             content: 'Talk about learning how to use this',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/basefactor_logo.svg`,
             imageAlign: 'right',
             title: 'Learn How',
           },
@@ -146,13 +147,13 @@ class Index extends React.Component {
         {[
           {
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/basefactor_logo.svg`,
             imageAlign: 'top',
             title: 'Feature One',
           },
           {
             content: 'The content of my second feature',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/basefactor_logo.svg`,
             imageAlign: 'top',
             title: 'Feature Two',
           },
