@@ -13,10 +13,10 @@ It tracks a promise while in pending state. @param promise Input promise to be t
 export function trackPromise(promise: Promise<any>): Promise<any>;
 ```
 
-Paramaters:
+**Paramaters:**
   - promise: promise to be tracked.
 
-Returns:
+**Returns:**
   - The same promise that was passed as argument (chain pattern).
 
 ## usePromiseTracker
@@ -29,14 +29,14 @@ React Promise Tracker custom hook, this hook will expose a promiseInProgress boo
 export function usePromiseTracker(outerConfig? : Config) : { promiseInProgress : boolean };
 ```
 
-Parameters:
+**Parameters:**
 
 - outerConfig: optional configuration parameters (area and delay), see _Config_
 section on this api for more information.
 
-Returns:
+**Returns:**
 
-- a _promiseInProgress_ boolean flag.
+- _promiseInProgress_ boolean flag.
 
 ## promiseTrackerHoc
 
@@ -48,7 +48,7 @@ Returns:
 export function promiseTrackerHoc<P>(component: React.ComponentType<P & ComponentToWrapProps>): React.ComponentType<P & TrackerHocProps>;
 ```
 
-Parameters:
+**Parameters:**
  - Component: component to wrap.
 
 Boolean property added to wrapped component: _promiseInProgress_
@@ -66,7 +66,7 @@ interface Config {
 }
 ```
 
-Fields:
+**Fields:**
 
 - _area_:
     - Accepted values: true / false (boolean)-
@@ -74,7 +74,7 @@ Fields:
     - You can define named areas and display multiple spinners (e.g. block just certain part of the screen).
 -_delay_:
     - Accepted values 1..99999 (milliseconds)
-    - Optiona parameter.
+    - Optional parameter.
     - Whenever a promise is getting fired, wait X milliseconds to display the spinner
     (on fast internet connections likely after that amount of time the ajax
     request is already fullfille.)
