@@ -3,7 +3,6 @@ id: api
 title: Api
 ---
 
-
 ## TrackPromise
 
 It tracks a promise while in pending state. @param promise Input promise to be tracked. @returns It returns the same promise as input.
@@ -13,6 +12,12 @@ It tracks a promise while in pending state. @param promise Input promise to be t
 ```typescript
 export function trackPromise(promise: Promise<any>): Promise<any>;
 ```
+
+Paramaters:
+  - promise: promise to be tracked.
+
+Returns:
+  - The same promise that was passed as argument (chain pattern).
 
 ## usePromiseTracker
 
