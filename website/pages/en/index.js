@@ -133,7 +133,7 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
-            content: 'Talk about learning how to use this',
+            content: 'You can just follow the get started section or check the online samples published',
             image: `${baseUrl}img/basefactor_logo.svg`,
             imageAlign: 'right',
             title: 'Learn How',
