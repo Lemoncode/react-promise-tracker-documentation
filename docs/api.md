@@ -14,7 +14,6 @@ It tracks a promise while in pending state. @param promise Input promise to be t
 export function trackPromise(promise: Promise<any>): Promise<any>;
 ```
 
-
 ## usePromiseTracker
 
 React Promise Tracker custom hook, this hook will expose a promiseInProgress boolean flag.
@@ -25,20 +24,29 @@ React Promise Tracker custom hook, this hook will expose a promiseInProgress boo
 export function usePromiseTracker(outerConfig? : Config) : { promiseInProgress : boolean };
 ```
 
+Parameters:
+
+- outerConfig: optional configuration parameters (area and delay), see _Config_
+section on this api for more information.
+
+Returns:
+
+- a _promiseInProgress_ boolean flag.
+
 ## promiseTrackerHoc
 
  It wraps a given React component into a new component that adds properties to watch pending promises (HOC).
-
-Parameters:
- - Component: component to wrap.
-
-Booelan property added to wrapped component: _promiseInProgress_
 
 **Typescript definition**
 
 ```typescript
 export function promiseTrackerHoc<P>(component: React.ComponentType<P & ComponentToWrapProps>): React.ComponentType<P & TrackerHocProps>;
 ```
+
+Parameters:
+ - Component: component to wrap.
+
+Boolean property added to wrapped component: _promiseInProgress_
 
 ## Config
 
@@ -52,3 +60,16 @@ interface Config {
    delay: number;
 }
 ```
+
+Fields:
+
+- _area_:
+    - Accepted values: true / false (boolean)-
+    - Optional parameter.
+    - You can define named areas and display multiple spinners (e.g. block just certain part of the screen).
+-_delay_:
+    - Accepted values 1..99999 (milliseconds)
+    - Optiona parameter.
+    - Whenever a promise is getting fired, wait X milliseconds to display the spinner
+    (on fast internet connections likely after that amount of time the ajax
+    request is already fullfille.)
