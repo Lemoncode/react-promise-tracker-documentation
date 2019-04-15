@@ -60,12 +60,12 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/basefactor_logo.svg`} />
+        <Logo img_src={`${baseUrl}img/logo_promise_tracker.png`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href={docUrl('getting-started.html')}>Getting Started</Button>
-            <Button href={docUrl('doc1.html')}>Try it out</Button>
+            <Button href="https://codesandbox.io/s/wy04jpmly7">Try it out</Button>
             <Button href={docUrl('examples.html')}>Examples</Button>
             <Button href={docUrl('api.html')}>Api</Button>
           </PromoSection>
@@ -121,7 +121,7 @@ class Index extends React.Component {
           {
             content:
               'This is another description of how this project is useful',
-            image: `${baseUrl}img/basefactor_logo.svg`,
+            image: `${baseUrl}img/logo_promise_tracker.png`,
             imageAlign: 'right',
             title: 'Description',
           },

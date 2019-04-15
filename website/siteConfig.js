@@ -14,7 +14,7 @@ const users = [
     caption: "User1",
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: "/img/basefactor_logo.svg",
+    image: "/img/logo_promise_tracker.png",
     infoLink: "https://www.basefactor.com",
     pinned: true
   }
@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "getting-started", label: "Getting Started" },
-    { doc: "try-it-out", label: "Try it out" },
+    { href: "https://codesandbox.io/s/wy04jpmly7", label: "Try it out" },
     { doc: "examples", label: "Examples" },
     { doc: "api", label: "api" },    
   ],
@@ -49,7 +49,7 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: "img/basefactor_logo.svg",
-  footerIcon: "img/basefactor_logo.svg",
+  footerIcon: "img/logo_promise_tracker.png",
   favicon: "img/favicon.png",
 
   /* Colors for website */
@@ -90,7 +90,7 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/docusaurus.png",
-  twitterImage: "img/docusaurus.png"
+  twitterImage: "img/docusaurus.png",
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
@@ -100,7 +100,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+     repoUrl: 'https://github.com/Lemoncode/react-promise-tracker/stargazers',
 };
 
 module.exports = siteConfig;

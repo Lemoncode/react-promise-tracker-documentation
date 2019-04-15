@@ -89,7 +89,7 @@ export const AppComponent = (props) => (
 Using react-promise-tracker as is will just display a single spinner in your page, there are cases where you want to display a given spinner only blocking certain area of the screen (e.g.: a product list app with a shopping cart section.
 We would like to block the ui (show spinner) while is loading the product, but not the rest of the user interface, and the same thing with the shopping cart pop-up section.
 
-![Shopping cart sample](./readme_resources/00-shopping-cart-sample.png)
+![Shopping cart sample](/img/started//00-shopping-cart-sample.png)
 
 The _promiseTracker_ hooks exposes a config parameter, here we can define the area that we want to setup
 (by default o area). We could just feed the area in the props of the common spinner we have created
