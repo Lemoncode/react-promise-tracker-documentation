@@ -48,9 +48,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/basefactor_logo.svg",
-  //footerIcon: "img/logo_promise_tracker.png",
-  favicon: "img/favicon.png",
+  headerIcon: "img/empty.png",
+  footerIcon: "img/empty.png",
+  favicon: "img/empty.png",
 
   /* Colors for website */
   colors: {

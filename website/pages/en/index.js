@@ -31,7 +31,7 @@ class HomeSplash extends React.Component {
 
     const Logo = props => (
       <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
+        {/*<img src={props.img_src} alt="Project Logo" />*/}
       </div>
     );
 
@@ -104,14 +104,14 @@ class Index extends React.Component {
 
     const TryOut = () => (
       <Block id="try">
-        {[
+        {/*[
           {
             content: 'Talk about trying this out',
             image: `${baseUrl}img/basefactor_logo.svg`,
             imageAlign: 'left',
             title: 'Try it Out',
           },
-        ]}
+        ]*/}
       </Block>
     );
 
@@ -131,14 +131,14 @@ class Index extends React.Component {
 
     const LearnHow = () => (
       <Block background="light">
-        {[
+        {/*[
           {
             content: 'You can just follow the get started section or check the online samples published',
             image: `${baseUrl}img/basefactor_logo.svg`,
             imageAlign: 'right',
             title: 'Learn How',
           },
-        ]}
+        ]*/}
       </Block>
     );
 
