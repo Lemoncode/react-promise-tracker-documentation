@@ -60,7 +60,7 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/logo_promise_tracker.png`} />
+        {/*<Logo img_src={`${baseUrl}img/logo_promise_tracker.png`} />*/}
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
@@ -121,7 +121,7 @@ class Index extends React.Component {
           {
             content:
               'This is another description of how this project is useful',
-            image: `${baseUrl}img/logo_promise_tracker.png`,
+            //image: `${baseUrl}img/logo_promise_tracker.png`,
             imageAlign: 'right',
             title: 'Description',
           },
@@ -196,10 +196,10 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
+          {/*<LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
+          <Showcase />*/}
         </div>
       </div>
     );

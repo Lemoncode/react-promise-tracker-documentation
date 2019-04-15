@@ -14,7 +14,7 @@ const users = [
     caption: "User1",
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: "/img/logo_promise_tracker.png",
+    //image: "/img/logo_promise_tracker.png",
     infoLink: "https://www.basefactor.com",
     pinned: true
   }
@@ -49,7 +49,7 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: "img/basefactor_logo.svg",
-  footerIcon: "img/logo_promise_tracker.png",
+  //footerIcon: "img/logo_promise_tracker.png",
   favicon: "img/favicon.png",
 
   /* Colors for website */
