@@ -3,7 +3,7 @@ id: getting-started
 title: react-promise-tracker
 ---
 
-Simple promise tracker React Hoc. You can see it in action in this [Live Demo](https://stackblitz.com/edit/react-promise-tracker-default-area-sample), and find the basic info to get started in this [post](https://www.basefactor.com/react-how-to-display-a-loading-indicator-on-fetch-calls).
+Simple promise tracker React Hoc. You can see it in action in this [Live Demo](https://codesandbox.io/s/wy04jpmly7), and find the basic info to get started in this [post](https://www.basefactor.com/react-how-to-display-a-loading-indicator-on-fetch-calls).
 
 # Why do I need this?
 
@@ -161,17 +161,17 @@ export const Spinner = (props) => {
 
 Full examples:
 
-- [00 Basic Example](https://stackblitz.com/edit/react-promise-tracker-default-area-sample): minimum sample to get started.
+- [00 Basic Example](https://codesandbox.io/s/wy04jpmly7): minimum sample to get started.
 
-- [01 Example Areas](https://stackblitz.com/edit/react-promise-tracker-two-areas-sample): defining more than one spinner to be displayed in separate screen areas.
+- [01 Example Areas](https://codesandbox.io/s/wy04jpmly7): defining more than one spinner to be displayed in separate screen areas.
 
-- [02 Example Delay](https://stackblitz.com/edit/react-promise-tracker-two-areas-sample): displaying the spinner after some miliseconds delay (useful when your users havbe high speed connections).
+- [02 Example Delay](https://codesandbox.io/s/kwrrjjyjm5): displaying the spinner after some miliseconds delay (useful when your users havbe high speed connections).
 
-- [03 Example Hoc](https://stackblitz.com/edit/react-promise-tracker-two-areas-sample): using legacy high order component approach (useful if your spinner is a class based component)
+- [03 Example Hoc](https://codesandbox.io/s/j2jjrk4ply): using legacy high order component approach (useful if your spinner is a class based component)
 
-- [04 Initial load](https://stackblitz.com/edit/react-promise-tracker-two-areas-sample): launching ajax request just on application startup before the spinner is being mounted.
+- [04 Initial load](https://codesandbox.io/s/j2jjrk4ply): launching ajax request just on application startup before the spinner is being mounted.
 
-- [05 Typescript](https://stackblitz.com/edit/react-promise-tracker-two-areas-sample): full sample using typescript (using library embedded typings).
+- [05 Typescript](https://codesandbox.io/s/5ww39l90yp): full sample using typescript (using library embedded typings).
 
 
 # About Basefactor + Lemoncode
