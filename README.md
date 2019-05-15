@@ -24,6 +24,8 @@ Preparing a bundle to be uploaded:
 npm run build
 ```
 
+> Build is generated under the path _/website/build/react-promise-tracker_
+
 In the browser type:
 
 ```
