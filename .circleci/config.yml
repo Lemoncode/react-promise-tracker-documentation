@@ -23,4 +23,4 @@ jobs:
           command: |
             cd ./website
             npm install
-            GIT_USER=<GIT_USER> && npm run publish-gh-pages
+            npm run publish-gh-pages
