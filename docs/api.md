@@ -5,23 +5,24 @@ title: Api
 
 ## TrackPromise
 
-It tracks a promise while in pending state. @param promise Input promise to be tracked. @returns It returns the same promise as input.
+It tracks a promise while in pending state.
 
 **Typescript definition**
 
 ```typescript
-export function trackPromise(promise: Promise<any>): Promise<any>;
+export function trackPromise(promise: Promise<T>, area?: string): Promise<T>;
 ```
 
-**Paramaters:**
+**Parameters:**
   - promise: promise to be tracked.
+  - area: optional parameter to define the area name ("default-area" by default).
 
 **Returns:**
   - The same promise that was passed as argument (chain pattern).
 
 ## usePromiseTracker
 
-React Promise Tracker custom hook, this hook will expose a promiseInProgress boolean flag.
+React Promise Tracker custom hook, this hook will expose a *promiseInProgress* boolean flag.
 
 **Typescript definition**
 
@@ -31,8 +32,8 @@ export function usePromiseTracker(outerConfig? : Config) : { promiseInProgress :
 
 **Parameters:**
 
-- outerConfig: optional configuration parameters (area and delay), see _Config_
-section on this api for more information.
+- outerConfig: optional configuration parameters (area and delay), see [_Config_](#config)
+section on this api for more information. Can be null.
 
 **Returns:**
 
@@ -55,29 +56,30 @@ Boolean property added to wrapped component: _promiseInProgress_
 
 ## Config
 
-Configuration contract: user can setup areas (display more than one spinner) or delay when the spinner is shown (this is useful when a user has a fast connection, to avoid unneccessary flickering)
+Configuration contract: user can setup areas (display more than one spinner) or delay when the spinner is shown (this is useful when a user has a fast connection, to avoid unnecessary flickering)
 
 **Typescript definition**
 
 ```typescript
 interface Config {
-   area: string;
-   delay: number;
+   area?: string;
+   delay?: number;
 }
 ```
 
 **Fields:**
 
 - _area_:
-    - Accepted values: true / false (boolean)-
+    - Accepted values: string.
     - Optional parameter.
-    - You can define named areas and display multiple spinners (e.g. block just certain part of the screen).
--_delay_:
-    - Accepted values 1..99999 (milliseconds)
+    - You can define named area and display multiple spinners (e.g. block just certain part of the screen).
+
+- _delay_:
+    - Accepted values: 1...99999 (milliseconds).
     - Optional parameter.
     - Whenever a promise is getting fired, wait X milliseconds to display the spinner
     (on fast internet connections likely after that amount of time the ajax
-    request is already fullfille.)
+    request is already fulfilled.)
 
 ## manuallyResetPromiseCounter
 
