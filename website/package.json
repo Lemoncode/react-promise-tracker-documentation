@@ -1,14 +1,11 @@
 {
   "scripts": {
-    "examples": "docusaurus-examples",
     "start": "docusaurus-start",
     "build": "docusaurus-build",
-    "publish-gh-pages": "docusaurus-publish",
-    "write-translations": "docusaurus-write-translations",
-    "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "publish-gh-pages": "npm run build && gh-pages -d build/react-promise-tracker -b gh-pages -r https://github.com/Lemoncode/react-promise-tracker"
   },
   "devDependencies": {
-    "docusaurus": "^1.7.3"
+    "docusaurus": "^1.7.3",
+    "gh-pages": "^2.2.0"
   }
 }
