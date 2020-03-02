@@ -43,7 +43,7 @@ const siteConfig = {
     { doc: "getting-started", label: "Getting Started" },
     { href: "https://codesandbox.io/s/wy04jpmly7", label: "Try it out" },
     { doc: "examples", label: "Examples" },
-    { doc: "api", label: "api" },    
+    { doc: "api", label: "Api" },    
   ],
 
   // If you have users set above, you add it here:
