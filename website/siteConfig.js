@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: "React Promise Tracker", // Title for your website.
   tagline: "Simple promise tracker",
-  url: "https://lemoncode.github.io/react-promise-tracker/", // Your website URL
-  baseUrl: "/", // Base URL for your project */
+  url: "https://lemoncode.github.io", // Your website URL
+  baseUrl: "/react-promise-tracker/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -32,8 +32,6 @@ const siteConfig = {
   // Used for publishing and more
   projectName: "react-promise-tracker",
   organizationName: "lemoncode",
-  url: "https://lemoncode.github.io/react-promise-tracker/",
-  baseUrl: "/react-promise-tracker/",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
