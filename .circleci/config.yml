@@ -6,7 +6,6 @@ jobs:
         - master
       ignore:
         - gh-pages
-    working_directory: ~/test-ci-code
     docker:
       - image: circleci/node:10
     steps:
