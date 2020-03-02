@@ -22,6 +22,6 @@ jobs:
           name: Install and deploy
           command: |
             cd ./website
-            npm install
-            npm run build
-            npm run publish-gh-pages
+            yarn install
+            yarn run build
+            yarn run publish-gh-pages
