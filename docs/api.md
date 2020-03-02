@@ -78,3 +78,48 @@ interface Config {
     - Whenever a promise is getting fired, wait X milliseconds to display the spinner
     (on fast internet connections likely after that amount of time the ajax
     request is already fullfille.)
+
+## manuallyResetPromiseCounter
+
+It performs a reset for area counter ("default-area" by default).
+
+> Use with caution. Not recommended in most scenarios.
+
+**Typescript definition**
+
+```typescript
+export function manuallyResetPromiseCounter(area?: string): void;
+```
+
+**Parameters:**
+  - area: optional parameter to define counter area name to be restarted.
+
+## manuallyDecrementPromiseCounter
+
+It decreases counter area name ("default-area" by default).
+
+> Use with caution. Not recommended in most scenarios.
+
+**Typescript definition**
+
+```typescript
+export function manuallyDecrementPromiseCounter(area?: string): void;
+```
+
+**Parameters:**
+  - area: optional parameter to define counter area name to decrease.
+
+## manuallyIncrementPromiseCounter
+
+It increments counter area name ("default-area" by default).
+
+> Use with caution. Not recommended in most scenarios.
+
+**Typescript definition**
+
+```typescript
+export function manuallyIncrementPromiseCounter(area?: string): void;
+```
+
+**Parameters:**
+  - area: optional parameter to define counter area name to increment.    
