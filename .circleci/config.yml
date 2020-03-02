@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build:
+    branches:
+      only:
+        - master
+      ignore:
+        - gh-pages
+    working_directory: ~/test-ci-code
+    docker:
+      - image: circleci/node:10
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "dd:74:5a:e8:d9:fb:03:fa:ac:49:30:c2:b3:6d:1e:eb"
+      - checkout
+      - run:
+          name: git config
+          command: |
+            git config user.email "ci-build@lemoncode.net"
+            git config user.name "ci-build"
+      - run:
+          name: Working directory
+          command: "cd ./website"
+      - run:
+          name: install
+          command: "npm install"
+      - run:
+          name: deploy
+          command: "npm run publish-gh-pages"
