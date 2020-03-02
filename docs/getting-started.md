@@ -48,7 +48,7 @@ spinner.
 import React, { Component } from 'react';
 + import { usePromiseTracker } from "react-promise-tracker";
 
-export const LoadingSpinerComponent = (props) => {
+export const LoadingSpinnerComponent = (props) => {
 + const { promiseInProgress } = usePromiseTracker();
 
   return (
@@ -165,7 +165,7 @@ Full examples:
 
 - [01 Example Areas](https://codesandbox.io/s/wy04jpmly7): defining more than one spinner to be displayed in separate screen areas.
 
-- [02 Example Delay](https://codesandbox.io/s/kwrrjjyjm5): displaying the spinner after some miliseconds delay (useful when your users havbe high speed connections).
+- [02 Example Delay](https://codesandbox.io/s/kwrrjjyjm5): displaying the spinner after some miliseconds delay (useful when your users have high speed connections).
 
 - [03 Example Hoc](https://codesandbox.io/s/j2jjrk4ply): using legacy high order component approach (useful if your spinner is a class based component)
 
@@ -173,6 +173,9 @@ Full examples:
 
 - [05 Typescript](https://codesandbox.io/s/5ww39l90yp): full sample using typescript (using library embedded typings).
 
+- [06 Suspense Like](https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/06-suspense-like): sample implementing a suspense-like component (typescript).
+
+- [07 Suspense Custom](https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/07-suspense-custom): sample implementing a suspense-like component that can be customized by passing a spinner component of your choice (typescript).
 
 # About Basefactor + Lemoncode
 

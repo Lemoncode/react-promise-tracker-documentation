@@ -46,15 +46,12 @@ Examples available:
 - **Typescript**: Using react-promise-tracker on a typescript project (including typings).
   - Live example: https://codesandbox.io/embed/5ww39l90yp
   - Code Sandbox: https://codesandbox.io/s/5ww39l90yp
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/05-typescript
+
+- **Suspense like**: Sample implementing a suspense-like component (typescript).
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/06-suspense-like
   - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/06-suspense-like
 
-* **Suspense like**: Sample implementing a suspense-like component (typescript).
-
-  - Live example: https://qxw92yjk2w.codesandbox.io/
-  - Code Sandbox: https://codesandbox.io/s/qxw92yjk2w
-  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/06-suspense-like
-
-* **Suspense custom**: sample implementing a suspense-like component that can be customized by passing a spinner component of your choice (typescript).
-  - Live example: https://jm6lzv9q3.codesandbox.io/
-  - Code Sandbox: https://codesandbox.io/s/jm6lzv9q3
+- **Suspense custom**: sample implementing a suspense-like component that can be customized by passing a spinner component of your choice (typescript).
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/07-suspense-custom
   - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/07-suspense-custom
