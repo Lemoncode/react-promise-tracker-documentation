@@ -19,13 +19,8 @@ jobs:
             git config user.email "ci-build@lemoncode.net"
             git config user.name "ci-build"
       - run:
-          name: Working directory
+          name: Install and deploy
           command: |
             cd ./website
-            ls
-      - run:
-          name: install
-          command: "npm install"
-      - run:
-          name: deploy
-          command: "npm run publish-gh-pages"
+            npm install
+            npm run publish-gh-pages
