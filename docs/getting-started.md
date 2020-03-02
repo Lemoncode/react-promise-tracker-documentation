@@ -161,21 +161,45 @@ export const Spinner = (props) => {
 
 Full examples:
 
-- [00 Basic Example](https://codesandbox.io/s/wy04jpmly7): minimum sample to get started.
+- **00 Basic Example**: minimum sample to get started.
 
-- [01 Example Areas](https://codesandbox.io/s/wy04jpmly7): defining more than one spinner to be displayed in separate screen areas.
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/00-example-basic
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/00-example-basic
 
-- [02 Example Delay](https://codesandbox.io/s/kwrrjjyjm5): displaying the spinner after some miliseconds delay (useful when your users have high speed connections).
+- **01 Example Areas**: defining more than one spinner to be displayed in separate screen areas.
 
-- [03 Example Hoc](https://codesandbox.io/s/j2jjrk4ply): using legacy high order component approach (useful if your spinner is a class based component)
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/01-example-areas
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/01-example-areas
 
-- [04 Initial load](https://codesandbox.io/s/j2jjrk4ply): launching ajax request just on application startup before the spinner is being mounted.
+- **02 Example Delay**: displaying the spinner after some miliseconds delay (useful when your users have high speed connections).
 
-- [05 Typescript](https://codesandbox.io/s/5ww39l90yp): full sample using typescript (using library embedded typings).
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/02-example-delay
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/02-example-delay
 
-- [06 Suspense Like](https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/06-suspense-like): sample implementing a suspense-like component (typescript).
+- **03 Example Hoc**: using legacy high order component approach (useful if your spinner is a class based component)
 
-- [07 Suspense Custom](https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/07-suspense-custom): sample implementing a suspense-like component that can be customized by passing a spinner component of your choice (typescript).
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/03-example-hoc
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/03-example-hoc
+
+- **04 Initial load**: launching ajax request just on application startup before the spinner is being mounted.
+
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/04-initial-load
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/04-initial-load
+
+- **05 Typescript]**: full example using typescript (using library embedded typings).
+
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/05-typescript
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/05-typescript
+
+- **06 Suspense Like**: sample implementing a suspense-like component (typescript).
+
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/06-suspense-like
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/06-suspense-like
+
+- **07 Suspense Custom**: sample implementing a suspense-like component that can be customized by passing a spinner component of your choice (typescript).
+
+  - Code Sandbox: https://codesandbox.io/s/github/lemoncode/react-promise-tracker/tree/master/examples/07-suspense-custom
+  - Github: https://github.com/Lemoncode/react-promise-tracker/tree/master/examples/07-suspense-custom
 
 # About Basefactor + Lemoncode
 
