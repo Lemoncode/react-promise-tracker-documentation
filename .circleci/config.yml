@@ -20,7 +20,9 @@ jobs:
             git config user.name "ci-build"
       - run:
           name: Working directory
-          command: "cd ./website"
+          command: |
+            cd ./website
+            ls
       - run:
           name: install
           command: "npm install"
