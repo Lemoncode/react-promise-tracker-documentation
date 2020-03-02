@@ -23,4 +23,5 @@ jobs:
           command: |
             cd ./website
             npm install
-            USE_SSH=true && npm run publish-gh-pages
+            npm run build
+            npm run publish-gh-pages
